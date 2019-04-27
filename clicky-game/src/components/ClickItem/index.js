@@ -5,7 +5,7 @@ import "./style.css";
 // That way we don't have to define them all individually
 function ClickItem(props) {
   return (
-    <div className="click-item" {...props} role="img">
+    <div {...props} role="img">
     </div>
   );
 }
